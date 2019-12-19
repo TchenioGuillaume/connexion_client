@@ -1,0 +1,65 @@
+url : codeshare.io/DFS15PHPVALIDATION
+
+
+////////// VALIDATION ////////////
+
+Vous allez devoir créer un e-commerce.
+
+Cet e-commerce portera sur le choix que vous voulez, comme :
+
+- Magasin de musique
+- Magasin de BD
+- Magasin d'électroménager
+- Magasin de jeux vidéos
+- Magasin de perruques de mulet pour Maxime
+- Etc.
+
+Cet e-commerce devra évidemment comporter plusieurs pages :
+
+- Une page d'accueil avec un lorem ipsum (qui fera office de présentation de votre entreprise)
+
+- Une page listant tous vos produits, qui possèderont un prix.
+
+- Ces produits, en cliquant sur "ajouter", s'ajoutent à un panier, qu'on peut visiter en cliquant sur le
+bouton "Mon panier", nous donnant ainsi la liste des produits que l'on a sélectionné.
+Une fois que l'on a validé la commande, on aura simplement une page ou un récapitulatif qui nous donnera le prix total de vos produits. (On ne va pas faire de paiement, rassurez-vous).
+Les produits devront donc être ajoutés en session ou en cookie, ce sera à vous de juger.
+
+- Qui dit panier dit évidemment qu'il doit être associé à une personne connectée, donc, vous devrez créer un système d'authentification avec un couple login/password et réutiliser le pseudo de l'utilisateur quelque part,
+l'enregistrant en session ou en cookie.
+
+- Une page contact avec un formulaire pour que l'on puisse vous contacter.
+Ce formulaire sera factice et ne renverra nulle part, il permettra simplement de vérifier via une RegEx que l'utilisateur a bien entré une adresse mail (donc une string avec un "@" et un ".").
+
+
+Compétences attendues :
+
+- Vous devrez utiliser du PHP (sans déconner) ainsi qu'au moins une fonction
+- Utilisation d'au moins une RegEx. Pour exemple, il en existe sur internet permettant de valider une adresse mail.
+- Il sera IMPERATIF d'utiliser du templating au maximum afin de soulager vos pages.
+- HTML5, CSS3 ==> Un site joli et responsive un MINIMUM sera demandé, mais occupez-vous du responsive tout à la fin si vous avez du temps, mais faites quelque chose de joli quand même; un minimum.
+    Bootstrap et autres autorisés, évidemment.
+
+- Utilisation de sessions ou cookies
+- Utilisation de données de formulaire.
+
+
+
+Petit bonus :
+
+- Pouvoir faire la création d'un nouveau produit via un formulaire (stocké dans un fichier généré)
+
+- Récupération dynamique des produits via des file_get_contents(); (Ce sera à vous d'aller vérifier)
+
+
+
+
+Rendu :
+
+- Jeudi à 12h30 tapante.
+- Pensez à mettre votre projet sur Git, même si je le corrigerai cet après-midi.
+- Un readme.md sera obligatoire, définissant à quoi sert votre projet, et quelles sont les difficultés rencontrées.
+
+
+Bon chance :)
+https://pbs.twimg.com/media/DDoaqNXVoAAM-t8.jpg
